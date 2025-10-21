@@ -7,7 +7,7 @@ This project demonstrates data cleaning, transformation, and visualization using
 ---
 
 ## 📂 Data Source
-Original dataset: *Melbourne Housing Dataset* (Kaggle).  
+Original dataset: [Melbourne Housing Market Dataset – Kaggle](https://www.kaggle.com/datasets/anthonypino/melbourne-housing-market/data)
 Data was imported from a CSV file and transformed using Power Query in Excel.
 
 ---
@@ -16,7 +16,7 @@ Data was imported from a CSV file and transformed using Power Query in Excel.
 - **Excel (Power Query, PivotTable, Dashboarding)**
 - **Data cleaning & transformation**
 - **Descriptive statistics**
-
+- The project was inspired by [Macquarie University’s Data Visualization in Excel course on Coursera](https://www.coursera.org/learn/excel-data-visualization/home/info) and follows a similar—but not identical—dataset to apply and extend the techniques I learned there.
 ---
 
 ## 🧹 Data Cleaning Process
