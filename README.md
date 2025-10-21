@@ -15,7 +15,6 @@ Data was imported from a CSV file and transformed using Power Query in Excel.
 ## ⚙️ Tools & Skills
 - **Excel (Power Query, PivotTable, Dashboarding)**
 - **Data cleaning & transformation**
-- **Data analysis & storytelling**
 - **Descriptive statistics**
 
 ---
@@ -73,11 +72,13 @@ Data was imported from a CSV file and transformed using Power Query in Excel.
 - Overall trend reflects **seasonal peaks**:  
   - **Autumn (Mar–May)**  
   - **Spring (Sep–Nov)**
+<img width="331" height="207" alt="image" src="https://github.com/user-attachments/assets/6a613688-8d3a-4120-bddc-912d83557bf1" />
 
 ### 2. Number of Properties Sold
 - Sales volume peaks around **May** and again in **September–October**.  
 - House sales dominate, with townhouses and units showing smaller but similar patterns.  
 - Market activity is strongly **seasonal**, not random.
+<img width="338" height="211" alt="image" src="https://github.com/user-attachments/assets/cb7bbe5d-3259-4ce9-97d6-38efb2193e85" />
 
 ### 3. Top 5 Suburbs per Council Area
 - Interactive dashboard allows exploration of:
@@ -85,15 +86,18 @@ Data was imported from a CSV file and transformed using Power Query in Excel.
   - Top-performing suburbs by **average price** and **volume**.
 
 ### 4. Average Price by Type, Suburb, and Month
-- Dashboard visuals show how average prices evolve monthly across property types and locations.  
+- Dashboard visuals show how average prices evolve monthly across property types and locations.
 - Enables year-over-year comparison to highlight growth or stability.
 
 ---
 
 ## 🖼️ Dashboard Preview
-*(Add screenshots here after upload)*
+This dashboard provides an overview of Property sales in Melbourne between 2016-2018. It allows users to indentify top-performing sales at the council area and surburb levels, explore changes in price and compare averages prices across property types.
+How to interact:
+- Use the Year, Month, and Council Area slicers to filter the data.
+- The KPI cards show the average prices and percentage change compared to the same month in the previous year.
+- The bar chart highlights average suburb/council area prices of the top 8 suburb or council area.
+- The line charts show monthly sales counts and average prices.
+- The table lists the top 5 suburbs with the highest and lowest prices for each property type. The icons are interactive to select the property type (only works with Macro-enabled file).
+<img width="1250" height="687" alt="image" src="https://github.com/user-attachments/assets/97aa30f3-923f-4af7-a2af-6dd5fb512c08" />
 
-Example:
-```markdown
-![Dashboard Overview](dashboard/screenshots/melbourne_dashboard_overview.png)
-![Suburb Comparison](dashboard/screenshots/suburb_price_trend.png)
